@@ -102,11 +102,3 @@ def nomear_rota(rota):
 
 def formatar_rota(rota):
     return " -> ".join(nomear_rota(rota))
-
-
-if __name__ == "__main__":
-    print("Quantidade de cidades:", len(NOMES_CIDADES))
-    print("Matriz de distâncias:")
-
-    for linha in obter_matriz_distancias():
-        print(linha)
